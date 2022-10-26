@@ -2,7 +2,7 @@ export class Character {
     name: string;
     family: string;
     age: number;
-    lifeStatus: boolean;
+    lifeStatus: string;
     message: string;
     static serie = 'Game of Thrones';
 
@@ -10,7 +10,7 @@ export class Character {
         this.name = name;
         this.family = family;
         this.age = age;
-        this.lifeStatus = true;
+        this.lifeStatus = 'Vivo';
         this.message = '';
     }
 }
