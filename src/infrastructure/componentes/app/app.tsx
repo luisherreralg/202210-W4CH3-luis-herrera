@@ -1,5 +1,5 @@
-import './app.css';
+import { Card } from '../card/card';
 
 export function App() {
-    return <div className="app">Probando</div>;
+    return <Card></Card>;
 }
