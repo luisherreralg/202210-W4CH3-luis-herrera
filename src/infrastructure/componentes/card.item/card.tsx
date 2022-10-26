@@ -6,7 +6,7 @@ import { Squire } from '../../models/squire';
 export function Card({ itemArr }: { itemArr: Character }) {
     const template = (
         <>
-            <li className="character col" key={itemArr.name}>
+            <li className="character col" key="{itemArr.name}">
                 <div className="card character__card">
                     <img
                         src={'./assets/' + itemArr.name.toLowerCase() + '.jpg'}
