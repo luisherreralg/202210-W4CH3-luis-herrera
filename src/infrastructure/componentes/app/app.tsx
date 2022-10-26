@@ -1,5 +1,5 @@
-import { Card } from '../card/card';
+import { List } from '../card.list/list';
 
 export function App() {
-    return <Card></Card>;
+    return <List></List>;
 }
