@@ -1,12 +1,12 @@
 import React from 'react';
 import { render, screen } from '@testing-library/react';
-import { App } from './app';
+import { List } from './list';
 
-describe('Given App component', () => {
+describe('Given List component', () => {
     describe('When the component is rendered', () => {
         beforeEach(() => {
             // eslint-disable-next-line testing-library/no-render-in-setup
-            render(<App></App>);
+            render(<List></List>);
         });
 
         test('Then it should display "Joffrey"', () => {
