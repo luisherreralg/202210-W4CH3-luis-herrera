@@ -71,7 +71,7 @@ export function Card({ itemArr }: { itemArr: Character }) {
                                         .brownNoseLevel === undefined
                                         ? 'X'
                                         : (itemArrStatus as Squire)
-                                              .brownNoseLevel}
+                                            .brownNoseLevel}
                                 </li>
                                 <li>Asesora a: X</li>
                                 <li>Sirve a: X</li>
